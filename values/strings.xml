@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EdithApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Preference Titles -->
+    <string name="time_period_header">Time Period</string>
+    <string name="notification_header">Notification</string>
+    <string name="display_header">Display</string>
+
+    <!--Time Preference-->
+    <string name="show_spending_title">Show Spending</string>
+    <string name="month_start_day">Month Start Day</string>
+    <string name="week_start_day">Week Start Day</string>
+
+    <!--Notification Preference-->
+    <string name="notification_start">Receive Notification</string>
+    <string name="Notification_tone">Notification Tone</string>
+
+    <!--Display Preference-->
+    <string name="font_size">Font Size</string>
+    <string name="font_family">Font Style</string>
+    <string name="tabs_position">Tabs Position</string>
+
+</resources>

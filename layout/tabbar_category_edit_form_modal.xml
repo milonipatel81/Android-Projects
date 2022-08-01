@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Update Category" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category Name" />
+    <EditText
+        android:id="@+id/tabbar_edit_txt_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/tabbar_edit_radiogroup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/tabbar_edit_radio_expense"
+            android:layout_width="100dp"
+            android:layout_height="39dp"
+            android:checked="false"
+            android:text="Expense"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/tabbar_edit_radio_income"
+            android:layout_width="147dp"
+            android:layout_height="41dp"
+            android:checked="false"
+            android:text="Income"
+            android:textSize="15dp" />
+    </RadioGroup>
+</LinearLayout>

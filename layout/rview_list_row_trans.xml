@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutTrans"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:background="@drawable/border">
+
+    <ImageView
+        android:id="@+id/imageViewTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:contentDescription="Icon" />
+
+    <TextView
+        android:id="@+id/textViewTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/imageViewTrans"
+        android:layout_toRightOf="@id/imageViewTrans"
+        android:gravity="center_vertical"
+        android:text="200"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewDateTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textViewTrans"
+        android:layout_toEndOf="@id/imageViewTrans"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:text="Date"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/textViewAmountTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="120dp"
+        android:layout_toEndOf="@id/textViewTrans"
+        android:layout_toRightOf="@id/imageViewTrans"
+        android:gravity="center_vertical"
+        android:text="200"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

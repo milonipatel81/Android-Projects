@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_userprofile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="User Profile" />
+
+        <item
+            android:id="@+id/nav_pdfreports"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="PDF Reports" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Rating" />
+
+        <item
+            android:id="@+id/nav_graphicalreports"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Graphical reports" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Send" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+
+    </group>
+</menu>

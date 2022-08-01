@@ -1,0 +1,63 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/time_period_header">
+        <ListPreference
+            app:defaultValue="Weekly"
+            app:entries="@array/spending_values"
+            app:entryValues="@array/spending_values"
+            app:key="SpendingStartDay"
+            app:title="@string/show_spending_title"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="1"
+            app:entries="@array/month_start_values"
+            app:entryValues="@array/month_start_values"
+            app:key="MonthStartDay"
+            app:title="@string/month_start_day"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="Monday"
+            app:entries="@array/week_start_values"
+            app:entryValues="@array/week_start_values"
+            app:key="WeekStartDay"
+            app:title="@string/week_start_day"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notification_header">
+        <SwitchPreferenceCompat
+            app:key="NotificationStatus"
+            app:title="@string/notification_start" />
+        <ListPreference
+            app:defaultValue="Joy"
+            app:entries="@array/notification_tone_values"
+            app:entryValues="@array/notification_tone_values"
+            app:key="NotificationTone"
+            app:title="@string/Notification_tone"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/display_header">
+        <EditTextPreference
+            app:key="FontSize"
+            app:title="@string/font_size"
+            app:defaultValue="12"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Arial"
+            app:entries="@array/font_values"
+            app:entryValues="@array/font_values"
+            app:key="FontStyle"
+            app:title="@string/font_family"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="Top"
+            app:entries="@array/tab_position_values"
+            app:entryValues="@array/tab_position_values"
+            app:key="TabPosition"
+            app:title="@string/tabs_position"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
